@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { navLinks } from './Data'
 import {FaTimes} from 'react-icons/fa'
 import {CgMenuGridO} from 'react-icons/cg'
 
 const Nav = () => {
+    const [nav, setNav] = useState(false)
   return (
     <>
         <header>
@@ -17,13 +18,13 @@ const Nav = () => {
                         return <li key={id}><a href={url}>{link}</a></li>
                     })}
                 </ul>
-                <div className='menu__open'>
+                <div className='menu__open' onClick={() => setNav(!nav)}>
                     <CgMenuGridO size={40}/>
                 </div>
             </nav>
-            <div className='mobile__menu'>
+            {nav && <div className='mobile__menu'>
                 <div className='mobile__menu--wrapper'>
-                    <div className='menu__close'>
+                    <div className='menu__close' onClick={() => setNav(!nav)}>
                         <FaTimes size={40}/>
                     </div>
                     <ul>
@@ -33,7 +34,7 @@ const Nav = () => {
                     })}
                     </ul>
                 </div>
-            </div>
+            </div>}
         </header>
     </>
   )
