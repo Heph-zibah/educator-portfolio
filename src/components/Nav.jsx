@@ -27,8 +27,6 @@ const Nav = () => {
                         return <li key={id}><a href={url}>{link}</a></li>
                     })}
                     </ul>
-
-
                 </div>
             </div>
         </header>
