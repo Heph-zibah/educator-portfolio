@@ -8,19 +8,24 @@ const Nav = () => {
     <>
         <header>
             <nav>
+                <div className='nav__logo'>
+                    <h2>Lucid Nelson</h2>
+                </div>
                 <ul>
                     {navLinks.map(item => {
                         const {id, url, link} = item
                         return <li key={id}><a href={url}>{link}</a></li>
                     })}
                 </ul>
-                <div>
-                    <CgMenuGridO/>
+                <div className='menu__open'>
+                    <CgMenuGridO size={40}/>
                 </div>
             </nav>
-            <div>
-                <div>
-                    <FaTimes/>
+            <div className='mobile__menu'>
+                <div className='mobile__menu--wrapper'>
+                    <div className='menu__close'>
+                        <FaTimes size={40}/>
+                    </div>
                     <ul>
                     {navLinks.map(item => {
                         const {id, url, link} = item
