@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: 0;
+    border: 0;
+}
+
+a, li, button {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 20px;
+    font-family: $font-family;
+}
+
+@media screen and (min-width:601px) {
+    .container {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width:901px) {
+    .container {
+        padding: 40px 60px;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .container {
+        padding: 40px 120px;
+    }
+}
