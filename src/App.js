@@ -3,8 +3,11 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="">
+    <div >
       <Nav/>
+      <main className="container">
+
+      </main>
     </div>
   );
 }
