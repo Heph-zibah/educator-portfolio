@@ -1,8 +1,51 @@
 .hero__container {
+    text-align: center;
     .hero__img {
         width:100%;
         img {
             width: 100%;
+        }
+    }
+    .hero__content {
+        margin-top: 30px;
+        color: $color-primary;
+        line-height:.9;
+        letter-spacing: 1px;
+        h1 {
+            margin: 20px 0;
+        }
+        button {
+            margin-top: 20px;
+            background-color: $color-primary;
+            padding:16px 32px;
+            color: $color-secondary;
+            transition: .5s ease-in-out;
+        }
+        button:hover {
+            color: $color-secondary;
+            background-color: $color-neutral;
+        }
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .hero__container {
+        display: flex;
+        height:70vh;
+        text-align: start;
+        padding-top: 50px;
+        .hero__img {
+            img {
+                width: 550px;
+                height: 350px;
+            }
+        }
+        .hero__content {
+            padding-left: 30px;
+            margin-top: 30px;
+            h1 {
+                margin: 40px 0;
+            }
         }
     }
 }
