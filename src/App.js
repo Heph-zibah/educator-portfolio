@@ -7,7 +7,7 @@ function App() {
     <div className="container">
       <Nav/>
       <main >
-<Home/>
+        <Home/>
       </main>
     </div>
   );
