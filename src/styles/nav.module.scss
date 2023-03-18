@@ -62,9 +62,16 @@ header {
                 li {
                     padding: 10px;
                 }
-                a {
-                    color: $color-primary;
+                li:hover {
+                    background-color: $color-secondary;
+                    border-bottom: 2px solid $color-primary;
+                    transition: .5s;
                 }
+                a {
+                    color: $color-primary; 
+                    
+                }
+                
             }
             .menu__open {
                 display: none;
@@ -81,6 +88,7 @@ header {
     header {
         // padding: 40px 120px;
         nav {
+            font-weight: 700;
             ul {
                 gap: 50px;
                 li {
