@@ -1,0 +1,25 @@
+.contact__container {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    .contact__form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input, textarea {
+            padding: 10px;
+            background-color: transparent;
+            border: 1px solid $color-primary;
+           outline: 1px solid $color-primary;
+           font-size: 18px;
+        }
+    }
+}
