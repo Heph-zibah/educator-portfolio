@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { navLinks } from './Data'
 import {FaTimes} from 'react-icons/fa'
 import {CgMenuGridO} from 'react-icons/cg'
+import { Link } from 'react-scroll'
 
 const Nav = () => {
     const [nav, setNav] = useState(false)
@@ -15,7 +16,8 @@ const Nav = () => {
                 <ul>
                     {navLinks.map(item => {
                         const {id, url, link} = item
-                        return <li key={id}><a href={url}>{link}</a></li>
+                        return <li key={id}><Link to={url} smooth={true} duration={500}>{link}</Link></li>
+                        
                     })}
                 </ul>
                 <div className='menu__open' onClick={() => setNav(!nav)}>
@@ -30,7 +32,7 @@ const Nav = () => {
                     <ul>
                     {navLinks.map(item => {
                         const {id, url, link} = item
-                        return <li key={id}><a href={url}>{link}</a></li>
+                        return <li key={id}><Link to={url} smooth={true} duration={500}>{link}</Link></li>
                     })}
                     </ul>
                 </div>
