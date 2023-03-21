@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import { reviewData } from './Testimonies/data';
+import { reviewData } from './Data';
 import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
 import {BsFillChatSquareQuoteFill} from 'react-icons/bs'
 
