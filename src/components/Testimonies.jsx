@@ -32,7 +32,7 @@ const Testimonies = () => {
 
   return (
     <>
-    <div className="testimonies__container">
+    <div className="testimonies__container" name='testimonies'>
       <h1>Testimonies</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsum.</p>
       <div className="testimonies__cards">
