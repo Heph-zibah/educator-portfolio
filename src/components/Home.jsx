@@ -4,7 +4,7 @@ import heroBG from '../assets/herobg.png'
 const Home = () => {
   return (
     <>
-      <div className="hero__container">
+      <div className="hero__container" name='home'>
         <div className='hero__img'>
           <img src={heroBG} alt="illustration" />
         </div>
