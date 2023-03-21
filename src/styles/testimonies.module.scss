@@ -1,0 +1,41 @@
+.testimonies__container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    text-align: center;
+    .testimonies__cards {
+        .testimonies__card{
+            display: flex;
+            flex-direction: column;
+            padding: 30px 20px;
+            background-color: $color-primary;
+            color: $color-secondary;
+            margin-top: 30px;
+            .testimonies__quote{
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+            p {
+                text-align: justify;
+            }
+            strong {
+                margin-top: 20px;
+            }
+            .testimonies__icons {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                div {
+                    padding: 20px;
+                    cursor: pointer;
+                }
+                div:hover {
+                    background-color: #fff;
+                    color: $color-primary;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
