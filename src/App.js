@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
 import Testimonies from "./components/Testimonies/Testimonies";
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Testimonies/>
         <Contact/>
       </main>
+      <Footer/>
     </div>
   );
 }
