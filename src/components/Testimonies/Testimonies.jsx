@@ -1,6 +1,7 @@
 import React , {useState} from 'react';
 import { reviewData } from './data';
 import {MdArrowBackIosNew, MdArrowForwardIos} from 'react-icons/md'
+import {BsFillChatSquareQuoteFill} from 'react-icons/bs'
 
 const Testimonies = () => {
   const [index, setIndex] = useState(0)
@@ -36,6 +37,7 @@ const Testimonies = () => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsum.</p>
       <div className="testimonies__cards">
         <div className="testimonies__card" key={id}>
+          <BsFillChatSquareQuoteFill className='testimonies__quote'/>
           <p>{text}</p>
           <strong>{name}</strong>
           <small>{job}</small>
