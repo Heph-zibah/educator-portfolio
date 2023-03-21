@@ -6,7 +6,7 @@ import {TfiWrite} from 'react-icons/tfi'
 const Services = () => {
   return (
    <>
-    <div className='services__container'>
+    <div className='services__container' name='services'>
         <h1>services</h1>
         <div className="services__cards">
             <div className="services__card">
