@@ -20,6 +20,7 @@ const Nav = () => {
                         
                     })}
                 </ul>
+                <a href="https://drive.google.com/file/d/1-jOiIDdG8AcX4bGzJu1jUi-ma7qh-vfb/view?usp=share_link" target='_blank'>VIEW RESUME</a>
                 <div className='menu__open' onClick={() => setNav(!nav)}>
                     <CgMenuGridO size={40}/>
                 </div>

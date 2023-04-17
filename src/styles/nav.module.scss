@@ -1,6 +1,11 @@
 header {
     // padding: 20px;
-    color: $color-primary;
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: $color-primary;
+        color: $color-secondary;
     .menu__open, .menu__close,.nav__logo {
         cursor: pointer;
     }
@@ -9,15 +14,16 @@ header {
         align-items: center;
         justify-content: space-between;
         .nav__logo {
-            padding: 20px;
+            padding: 10px;
         }
         ul {
             display: none;
         }
         .menu__open {
-            padding: 20px;
+            padding: 10px;
         }
     }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     .mobile__menu {
         position: fixed;
         top: 0;
@@ -57,10 +63,11 @@ header {
             justify-content: space-between;
             ul {
                 display: flex;
-                gap: 40px;
+                gap: 30px;
                 align-items: center;
                 li {
                     padding: 10px;
+                    
                 }
                 li:hover {
                     background-color: $color-secondary;
@@ -68,7 +75,7 @@ header {
                     transition: .5s;
                 }
                 a {
-                    color: $color-primary; 
+                    color: $color-secondary;
                     
                 }
                 
@@ -90,7 +97,7 @@ header {
         nav {
             font-weight: 700;
             ul {
-                gap: 50px;
+                gap: 30px;
                 li {
                     padding: 20px;
                 }

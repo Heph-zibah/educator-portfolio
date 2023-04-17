@@ -34,7 +34,7 @@ const Testimonies = () => {
     <>
     <div className="testimonies__container" name='testimonies'>
       <h1>Testimonies</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ipsum.</p>
+      <p>Testimonials from successful students who credit my coaching for their language proficiency achievements.</p>
       <div className="testimonies__cards">
         <div className="testimonies__card" key={id}>
           <BsFillChatSquareQuoteFill className='testimonies__quote'/>

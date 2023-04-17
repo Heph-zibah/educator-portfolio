@@ -10,12 +10,9 @@ const About = () => {
             </div>
             <div className="about__content">
                 <h1>about me</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur mollitia tempora, dolorem voluptas possimus c
-                    onsequatur earum, fuga officia dolore rem, illo enim aperiam est dolorum! Libero ex sunt, eveniet non obcaecati 
-                    beatae et veritatis, est cum amet fugiat aperiam temporibus distinctio. Ipsa quibusdam reprehenderit laudantium 
-                    fugit corrupti, dicta harum ratione sed itaque quis veniam? Alias et, 
-                    quasi optio quaerat delectus odio. Asperiores, dolorum ratione praesentium tempora deserunt harum nihil temporibus!
-                </p>
+                <p>Seeing my students excel is one of the most fulfilling aspects of my profession. Witnessing their progress, growth, and achievements brings me immense joy and satisfaction. 
+                    I am dedicated to equipping my students with the skills, knowledge, and confidence they need to thrive in their academic pursuits and beyond.</p>
+                <p>With a strong team spirit, I actively collaborate with colleagues, students, and parents to foster a supportive and engaging learning community. I am committed to understanding the unique strengths and weaknesses of my students and providing personalized guidance to help them excel academically and personally. Witnessing my students' progress and achievements brings me immense joy, and I am dedicated to equipping them with the skills, knowledge, and confidence they need to succeed in their language learning journey and beyond.</p>
                 <button>Message me</button>
             </div>
         </div>

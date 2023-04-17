@@ -1,11 +1,12 @@
 import React from 'react'
+import {FaWhatsappSquare} from 'react-icons/fa'
 
 const Contact = () => {
   return (
     <>
         <div className='contact__container' name='contact'>
             <h1>Get In Touch</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, in.</p>
+            <p>Contact me now for language coaching, research, or teaching inquiries.</p>
             <form className='contact__form'>
                 <input type="text"  placeholder='Your Name'/>
                 <input type="email" placeholder='Your Email' />
@@ -13,6 +14,7 @@ const Contact = () => {
                 <textarea name="message" id="" cols="50" rows="10" value='Message'></textarea>
                 <button>Send</button>
             </form>
+            <a href="https://wa.link/pvxoki" target='_blank'><FaWhatsappSquare /></a>
         </div>
 
 
